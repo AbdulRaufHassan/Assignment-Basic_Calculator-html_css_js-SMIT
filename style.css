@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/body_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.parentDiv {
+    min-width: 270px;
+    max-width: 300px;
+    height: 600px;
+    background-color: #e6e4e4;
+    border-radius: 33px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.butns {
+    height: 45%;
+    width: 100%;
+    padding: 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    line-height: 0px;
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(241, 240, 240, 0.3);
+    color: #f15757;
+    font-size: large;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:active {
+    background-color: #f15757;
+    color: #f1f0f0;
+}
+
+.numbers {
+    background-color: #fcfcfc;
+    color: #0e0e0e;
+}
+
+.numbers:active {
+    color: #fcfcfc;
+    background-color: #0e0e0e;
+}
+
+#result {
+    color: #fcfcfc;
+    background-color: #f15757;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#result:active {
+    background-color: #0e0e0e;
+    color: #f15757;
+}
+
+.outputArea {
+    text-align: center;
+}
+
+#input {
+    width: 90%;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: gray;
+    text-align: right;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+#output {
+    width: 90%;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 30px;
+}
